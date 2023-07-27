@@ -1,0 +1,164 @@
+.searchBoxContainer {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg");
+  background-repeat: no-repeat;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.searchBoxContainerBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-66px);
+  position: relative;
+}
+.searchBar {
+  width: 60%;
+  height: 120px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+}
+.searchBarContainer {
+  width: 75%;
+  height: 100%;
+  display: flex;
+}
+.searchBarSearchBtn {
+  width: 25%;
+  height: 100%;
+  background-color: #d84f55;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+}
+.searchBar .ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.searchBar .ant-select .ant-select-arrow {
+  display: none !important;
+}
+.searchBar .ant-select-selector:hover {
+  border: none !important;
+  box-shadow: none;
+}
+.searchBar .ant-select-focused {
+  box-shadow: none !important;
+}
+.datePickerBtn {
+  width: 33.33%;
+  border-left: 1px solid #d0d0d0;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+}
+.datePickerBtn input,
+.fromSeachBtn input,
+.toSeachBtn input,
+.toSeachBtn .ant-select-selection-placeholder,
+.fromSeachBtn .ant-select-selection-placeholder,
+.fromSeachBtn .ant-select-selection-item,
+.toSeachBtn .ant-select-selection-item {
+  font-size: 18px !important;
+}
+.fromSeachBtn .ant-select-selection-item,
+.toSeachBtn .ant-select-selection-item,
+.fromSeachBtn .ant-select-item-option-content,
+.toSeachBtn .ant-select-item-option-content {
+  color: #6b6b6b !important;
+}
+.ant-select-item-option-content,
+.ant-picker-input > input {
+  color: #6b6b6b !important;
+  font-size: 16px;
+}
+.fromSeachBtn {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  position: relative;
+}
+.toSeachBtn {
+  width: 33.33%;
+  padding-left: 40px;
+  border-left: 1px solid #d0d0d0;
+  display: flex;
+  align-items: center;
+}
+.fromSeachBtn .ant-select-single,
+.toSeachBtn .ant-select-single {
+  width: 80% !important;
+}
+.fromSeachBtn .centerIcon {
+  font-size: 32px;
+  color: #a2a2a2;
+  border: 1px solid grey;
+  position: relative;
+  right: -20px;
+  border-radius: 50%;
+  padding: 3px 5px;
+  background-color: white;
+}
+.toSeachBtn .icon,
+.fromSeachBtn .icon,
+.datePickerBtn .icon {
+  font-size: 26px !important;
+  color: #8e8d8d;
+  margin-right: 5px;
+}
+.datePickerBtn .ant-picker {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.datePickerBtn .ant-picker-suffix {
+  display: none !important;
+}
+.bottomImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.bottomImage img {
+  width: 70%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.ant-picker-cell-inner::before {
+  border: 1px solid #d85055 !important;
+}
+.ant-picker-cell-selected .ant-picker-cell-inner {
+  background-color: #d85055 !important;
+}
+.ant-picker-today-btn {
+  color: #d85055 !important;
+}
+.ant-picker-header-view button:hover {
+  color: #d85055 !important;
+}
+.Home-errorMessage {
+  width: 56%;
+  margin-top: 9px;
+  display: flex;
+  justify-content: flex-start;
+  color: #d85055;
+  font-weight: 500;
+  position: absolute;
+  bottom: -23px;
+}

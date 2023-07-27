@@ -1,0 +1,63 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.LoginContainer {
+    display: flex;
+    padding: 30px 50px;
+    box-shadow: 0 0 23px 0px #e4e4e4;
+    /* border-radius: 8px; */
+}
+.LoginColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 20px;
+    width: 320px;
+}
+.LoginColumn .image {
+    width: 100%;
+}
+.LoginColumn p {
+    color: #d85055;
+    font-size: 21px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.LoginColumn input {
+    width: 93%;
+    /* margin: 0 27px; */
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid #b9b9b9;
+    outline: 1px solid #b9b9b9;
+    padding: 0 0 0 19px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #4d4d4d;
+}
+.LoginColumn button {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #d85055;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login-errorMessage{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.login-errorMessage p {
+    margin-top: -22px;
+    color: #d85055;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
+}

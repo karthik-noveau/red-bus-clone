@@ -1,0 +1,180 @@
+.SelectedTravelsListHeader .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  box-shadow: 0px 17px 25px -11px #e6e5e5;
+  background-color: #d85055;
+}
+.SelectedTravelsListHeader .leftSideMenuItems p {
+  color: #ffffff;
+  letter-spacing: 0.4px;
+  margin-top: 2px;
+  font-size: 14px;
+}
+.SelectedTravelsListHeader .leftSideMenuItems div:nth-of-type(1) img {
+  width: 65px;
+  color: white;
+  filter: grayscale(1) brightness(3);
+}
+.SelectedTravelsListHeader .leftSideMenuItems div:nth-of-type(1) span {
+  height: 29px;
+  width: 2px;
+  border-right: 1px solid #ffffff;
+  padding-left: 56px;
+  margin-right: 39px;
+}
+.SelectedTravelsListHeader .leftSideMenuItems div:nth-of-type(2) img,
+.SelectedTravelsListHeader .leftSideMenuItems div:nth-of-type(3) img,
+.SelectedTravelsListHeader .leftSideMenuItems div:nth-of-type(4) img {
+  filter: grayscale(1) brightness(4);
+  width: 35px;
+  margin-bottom: 9.2px;
+}
+.SelectedTravelsListHeader .rightSideMenuItems div:nth-of-type(1) p,
+.SelectedTravelsListHeader .rightSideMenuItems div:nth-of-type(2) p {
+  margin-left: 8px;
+  color: #ffffff;
+}
+.SelectedTravelsListHeader .rightSideMenuItems div:nth-of-type(1) .icon {
+  font-size: 27px;
+  color: white;
+}
+.SelectedTravelsListHeader .rightSideMenuItems div:nth-of-type(2) .icon {
+  font-size: 27px;
+  color: #ffffff;
+}
+.fareStartHeaderContainer {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: #f8f4f4;
+  padding: 15px 0 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.fareStartHeaderContainer button {
+  margin-left: 30px;
+  height: 35px;
+  width: 100px;
+  /* animation: none; */
+  border: noe;
+  color: #646464;
+  cursor: pointer;
+  /* border-radius: 3px; */
+  font-size: 15px;
+}
+.fareStartHeaderContainer p:nth-child(1) {
+  color: #6a6a6a;
+  font-size: 15px;
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+}
+.fareStartHeaderContainer p:nth-child(2) {
+  font-size: 15px;
+  color: #022554;
+  font-weight: 500;
+}
+.userSelectedFromToContainer {
+  border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  padding: 15px 0 16px 20px;
+  align-items: center;
+  color: #002a64;
+}
+.userSelectedFromToContainer p:nth-child(1) {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.userSelectedFromToContainer p:nth-child(1) .icon {
+  margin: 0 8px;
+}
+.SelectedTravelsListContainerSection {
+  display: flex;
+}
+.SelectedTravelsListSection {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+}
+.SelectedTravelsListFilterContainer {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.SelectedTravelsListDataContainer {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.SelectedTravelsListFilterContainer .filtersBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.SelectedTravelsListFilterContainer .filtersBox .checkBox {
+  margin-bottom: 11px;
+  color: #5b5b5b;
+  font-weight: 100;
+}
+.SelectedTravelsListFilterContainer .filtersBox .ant-checkbox-inner {
+  border-color: #a2a2a2 !important;
+}
+.SelectedTravelsListFilterContainer .filtersBox .ant-checkbox-checked:after {
+  border: 2px solid #d85055 !important;
+  border-color: #d85055 !important;
+}
+.SelectedTravelsListFilterContainer
+  .filtersBox
+  .ant-checkbox-checked
+  .ant-checkbox-inner {
+  background-color: #d85055 !important;
+  border-color: #d85055 !important;
+}
+.SelectedTravelsListFilterContainer .filtersBox p {
+  color: #002a64;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.SelectedTravelsListFilterContainer .filtersBox .filtes_title {
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #002a64;
+}
+.muiltBrandImages {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 30px;
+}
+.muiltBrandImages img {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin: 0 10px;
+}
+.SelectedTravelsListDataContainerBox {
+  margin: 0px 20px;
+}
+.ratingDetailsText {
+  font-size: 16px;
+  color: #002a64;
+  display: flex;
+  align-items: center;
+  padding: 17px 0;
+  margin-top: 18px;
+  border-bottom: 1px solid #bcbcbc;
+}
+.ratingDetailsText .icon {
+  margin-right: 8px;
+  font-size: 20px;
+  margin-top: -4px;
+}
+.SelectedTravelListTableConatainer {
+}
